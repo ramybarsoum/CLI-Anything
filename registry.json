@@ -204,16 +204,16 @@
     {
       "name": "zotero",
       "display_name": "Zotero",
-      "version": "0.1.0",
-      "description": "Reference management via local Zotero SQLite, connector, and Local API",
-      "requires": "Zotero desktop app",
-      "homepage": "https://www.zotero.org",
-      "install_cmd": "pip install git+https://github.com/HKUDS/CLI-Anything.git#subdirectory=zotero/agent-harness",
+      "version": "0.4.1",
+      "description": "CLI & MCP server for Zotero 7/8 — 52 MCP tools + 70+ CLI commands for search, import, PDF, BibTeX, notes, and more",
+      "requires": "Zotero 7/8 desktop app (running), Python 3.10+",
+      "homepage": "https://github.com/PiaoyangGuohai1/cli-anything-zotero",
+      "install_cmd": "pip install cli-anything-zotero",
       "entry_point": "cli-anything-zotero",
-      "skill_md": "zotero/agent-harness/cli_anything/zotero/skills/SKILL.md",
+      "skill_md": "https://github.com/PiaoyangGuohai1/cli-anything-zotero/blob/main/cli_anything/zotero/skills/SKILL.md",
       "category": "office",
-      "contributor": "zhiwuyazhe_fjr",
-      "contributor_url": "https://github.com/zhiwuyazhe_fjr"
+      "contributor": "PiaoyangGuohai1",
+      "contributor_url": "https://github.com/PiaoyangGuohai1"
     },
     {
       "name": "mubu",
